@@ -41,5 +41,5 @@ You can also just pass a path to create link to:
 
 # Get data from the server
 
-Run the script.py file. Note that the prerequisite is to install the driver for the corresponding browser. The example here uses the Chorme browser, so you need to download the Google Chorme driver. [Download it from this link] (https://googlechromelabs.github.io/chrome-for-testing/).
+Run the script.py file. Note that the prerequisite is to install the driver for the corresponding browser. The example here uses the Chorme browser, so you need to download the [Google Chorme driver](https://googlechromelabs.github.io/chrome-for-testing/).
 
