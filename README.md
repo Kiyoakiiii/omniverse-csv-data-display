@@ -44,6 +44,10 @@ You can also just pass a path to create link to:
 Run the script.py file. Note that the prerequisite is to install the driver for the corresponding browser. The example here uses the Chorme browser, so you need to download the [Google Chorme driver](https://googlechromelabs.github.io/chrome-for-testing/).
 
 After installing the chorme driver, run the code, and the program will automatically crawl the server data every 30 seconds and save it as a csv file locally.
+![image](https://github.com/user-attachments/assets/1d9a283f-f9e4-471a-98ab-2d52451fbf03)
+
+
+# Extension Showcase
 
 Then open the Omniverse program, navigate to csv_data_display in the extensions and start it.
 
