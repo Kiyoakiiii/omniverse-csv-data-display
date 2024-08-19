@@ -1,6 +1,5 @@
 # Extension Project Template
 
-This project was automatically generated.
 
 - `app` - It is a folder link to the location of your *Omniverse Kit* based app.
 - `exts` - It is a folder where you can add new extensions. It was automatically added to extension search path. (Extension Manager -> Gear Icon -> Extension Search Path).
@@ -40,13 +39,7 @@ You can also just pass a path to create link to:
 ```
 
 
-# Sharing Your Extensions
+# Get data from the server
 
-This folder is ready to be pushed to any git repository. Once pushed direct link to a git repository can be added to *Omniverse Kit* extension search paths.
-
-Link might look like this: `git://github.com/[user]/[your_repo].git?branch=main&dir=exts`
-
-Notice `exts` is repo subfolder with extensions. More information can be found in "Git URL as Extension Search Paths" section of developers manual.
-
-To add a link to your *Omniverse Kit* based app go into: Extension Manager -> Gear Icon -> Extension Search Path
+Run the script.py file. Note that the prerequisite is to install the driver for the corresponding browser. The example here uses the Chorme browser, so you need to download the Google Chorme driver. [Download it from this link] (https://googlechromelabs.github.io/chrome-for-testing/).
 
