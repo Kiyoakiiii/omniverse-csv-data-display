@@ -35,11 +35,11 @@ def extract_data(url, css_selector):
 
 def fetch_and_save_data():
     # 提取 CPU 数据
-    cpu_url = 'https://cloud1.zentek.com.cn:8000/grafana/d/qhGBMmink/k8s-node?orgId=1&inspect=14&inspectTab=data'
+    cpu_url = 'cpu-data-panel'
     cpu_data = extract_data(cpu_url, 'div.css-1w5pd0q')
 
     # 提取 GPU 数据
-    gpu_url = 'https://cloud1.zentek.com.cn:8000/grafana/d/qhGBMmink/k8s-node?orgId=1&inspect=18&inspectTab=data'
+    gpu_url = 'gpu-data-panel'
     gpu_data = extract_data(gpu_url, 'div.css-1w5pd0q')
 
     # 创建 DataFrame
