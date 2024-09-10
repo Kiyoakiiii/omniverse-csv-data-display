@@ -35,11 +35,11 @@ def extract_data(url, css_selector):
 
 def fetch_and_save_data():
     # 提取 CPU 数据
-    cpu_url = 'cpu-data-panel'
+    cpu_url = 'cpu_dashboard_url'
     cpu_data = extract_data(cpu_url, 'div.css-1w5pd0q')
 
     # 提取 GPU 数据
-    gpu_url = 'gpu-data-panel'
+    gpu_url = 'gpu_dashboard_url'
     gpu_data = extract_data(gpu_url, 'div.css-1w5pd0q')
 
     # 创建 DataFrame
